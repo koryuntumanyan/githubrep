@@ -25,7 +25,7 @@ searchButton.addEventListener('click', () => {
                         searchResults.append(links);
                         let repositoryLink = document.createElement('a');
                         repositoryLink.style.color = 'white';
-                        repositoryLink.href = item.git_url;
+                        repositoryLink.href = item.html_url;
                         repositoryLink.target = '_blank';
                         repositoryLink.textContent = item.full_name;
                         let info = document.createElement('p');
